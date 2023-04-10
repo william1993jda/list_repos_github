@@ -5,7 +5,7 @@ import { FaGithub, FaPlus, FaBroom, FaSpinner, FaBars, FaTrash } from "react-ico
 import api from "../../services/api";
 
 export default function Main() {
-    const [newRepo, setNewRepo] = useState('facebook/react');
+    const [newRepo, setNewRepo] = useState('');
     const [repositorios, setRepositorios] = useState([]);
     const [loading, setLoading] = useState(false);
     const [alert, setAlert] = useState(null);
