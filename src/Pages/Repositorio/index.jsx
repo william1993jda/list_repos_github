@@ -127,7 +127,7 @@ export default function Repositorio() {
                     onClick={() => handlePage('back')}
                     disabled={page < 2}
                 >
-                    {loadPage ? <FaCircleNotch className="loading-circle" />: <FaAngleLeft />}  
+                    <FaAngleLeft />
                    {' '} Voltar
                 </button>
                 <button type="button" onClick={() => handlePage('next')}>
